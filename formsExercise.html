@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Survey" content="">
+    <title>Survey</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Customer Experience Survey</legend>
+        <label for="storeNumber">Store Number</label>
+        <select name="storeNumber" id="storeNumber">
+            <option value="3109">3109</option>
+            <option value="2421">2421</option>
+            <option value="5357">5357</option>
+        </select>
+        <fieldset>
+            <legend>When you visited</legend>
+            <label for="date">Date Visited</label>
+            <input type="date">
+            <br>
+            <label for="time">Time</label>
+            <input type="time">
+        </fieldset>
+        <label for="text">Full Name:</label>
+        <input type="text" name="Fullname" placeholder="Name">
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" placeholder="Email">
+        <fieldset>
+            <legend>How would you rate your level of satisfaction with your visit?</legend>
+            <input type="radio" id="satisfied" name="Experience" value="satisfied">
+            <label for="satisfied">Satisfied</label>
+            <br>
+            <input type="radio" id="Neither Satisfied nor Disatisfied" name="Experience"
+                value="Neither Satisfied nor Dissatisfied">
+            <label for="Experience">Neither Satisfied nor Dissatisfied</label>
+            <br>
+            <input type="radio" id="Dissatisfied" name="Experience" value="Dissatisfied">
+            <label for="Experience">Dissatisfied</label>
+        </fieldset>
+        <label for="tell">Tell us about your experience:</label>
+        <br>
+        <textarea name="tell" id="tell" cols="30" rows="10"></textarea>
+        <br>
+        <label for="Time">Times visited in the last month:</label>
+        <br>
+        <input type="text" id="Time">
+        <br>
+        <input type="checkbox" id="contact">
+        <label for="contact">Please check the box if you would be willing to be contacted about your experience</label>
+        <br>
+        <button>Submit</button>
+    </fieldset>
+</body>
+
+</html>
